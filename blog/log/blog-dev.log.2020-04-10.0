@@ -1,0 +1,516 @@
+2020-04-10 09:12:14.776  INFO 12404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 12404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-10 09:12:14.792 DEBUG 12404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 09:12:14.792  INFO 12404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-10 09:12:14.854  INFO 12404 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 09:12:14.854  INFO 12404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 09:12:14.854  INFO 12404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 09:12:16.387  INFO 12404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 09:12:16.465  INFO 12404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 4 JPA repository interfaces.
+2020-04-10 09:12:16.590  WARN 12404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-10 09:12:17.418  INFO 12404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-10 09:12:17.480  INFO 12404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-10 09:12:17.480  INFO 12404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 09:12:17.684  INFO 12404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-10 09:12:17.684  INFO 12404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2830 ms
+2020-04-10 09:12:17.980  INFO 12404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 09:12:18.074  INFO 12404 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 09:12:18.215  INFO 12404 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 09:12:18.340  INFO 12404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-10 09:12:18.651  INFO 12404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-10 09:12:18.666  INFO 12404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-10 09:12:19.572  INFO 12404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 09:12:19.572  INFO 12404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 09:12:19.682  INFO 12404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-10 09:12:19.729  WARN 12404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-10 09:12:20.573  INFO 12404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8d690758-dd09-46bd-be72-365aebb3efae
+
+2020-04-10 09:12:20.682  INFO 12404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71dc78d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f07b467, org.springframework.security.web.header.HeaderWriterFilter@59fe5760, org.springframework.security.web.csrf.CsrfFilter@5188752b, org.springframework.security.web.authentication.logout.LogoutFilter@7e69e470, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4249599f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cf80e57, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b387afd, org.springframework.security.web.session.SessionManagementFilter@4764af74, org.springframework.security.web.access.ExceptionTranslationFilter@762abb97, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ae584cc]
+2020-04-10 09:12:21.104  INFO 12404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 09:12:21.229  INFO 12404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-10 09:12:22.432  INFO 12404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 09:12:22.432  INFO 12404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 8.742 seconds (JVM running for 14.609)
+2020-04-10 09:14:50.699  INFO 12404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 09:14:50.700  INFO 12404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-10 09:14:50.712  INFO 12404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-04-10 09:14:50.774  INFO 12404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@4cd7e340}
+2020-04-10 09:14:50.911  WARN 12404 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blog.size]; use collection function syntax instead [size(t.blog)].
+2020-04-10 09:14:50.923  INFO 12404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 09:14:50.923  INFO 12404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-10 09:15:03.199  INFO 12404 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@16b282ac}
+2020-04-10 09:15:03.265  INFO 12404 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 09:15:03.265  INFO 12404 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 10:00:53.146  INFO 12404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@81c4798}
+2020-04-10 10:00:53.160  INFO 12404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 10:00:53.160  INFO 12404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 10:00:56.912  INFO 12404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@72ad18c6}
+2020-04-10 10:00:56.920  INFO 12404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 10:00:56.920  INFO 12404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 11:17:47.209  INFO 12404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@f17de80}
+2020-04-10 11:17:47.231  INFO 12404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 11:17:47.231  INFO 12404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-10 17:23:40.979  INFO 24048 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 24048 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-10 17:23:40.982 DEBUG 24048 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 17:23:40.983  INFO 24048 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-10 17:23:41.073  INFO 24048 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 17:23:41.073  INFO 24048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 17:23:41.073  INFO 24048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 17:23:42.537  INFO 24048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 17:23:42.662  INFO 24048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109ms. Found 5 JPA repository interfaces.
+2020-04-10 17:23:42.925  WARN 24048 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-10 17:23:44.054  INFO 24048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-10 17:23:44.070  INFO 24048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-10 17:23:44.071  INFO 24048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 17:23:44.443  INFO 24048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-10 17:23:44.444  INFO 24048 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3371 ms
+2020-04-10 17:23:44.813  INFO 24048 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 17:23:44.875  INFO 24048 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 17:23:44.974  INFO 24048 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 17:23:45.051  INFO 24048 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-10 17:23:45.174  INFO 24048 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-10 17:23:45.190  INFO 24048 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-10 17:23:46.064  INFO 24048 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 17:23:46.071  INFO 24048 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 17:23:46.124  INFO 24048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-10 17:23:46.186  WARN 24048 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-10 17:23:46.943  INFO 24048 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ddadfa1e-f709-4540-9720-2fe580df7e91
+
+2020-04-10 17:23:47.055  INFO 24048 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b8c755, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ceb355a, org.springframework.security.web.header.HeaderWriterFilter@7cba3a09, org.springframework.security.web.csrf.CsrfFilter@725646e8, org.springframework.security.web.authentication.logout.LogoutFilter@1b9ffc3c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34279265, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7988529c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@171f8e64, org.springframework.security.web.session.SessionManagementFilter@e0ddb5e, org.springframework.security.web.access.ExceptionTranslationFilter@39c1d5c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70fc8462]
+2020-04-10 17:23:47.476  INFO 24048 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:23:47.568  INFO 24048 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-10 17:23:47.952  INFO 24048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 17:23:47.954  INFO 24048 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 7.943 seconds (JVM running for 10.921)
+2020-04-10 17:23:48.226  INFO 24048 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 17:23:48.227  INFO 24048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-10 17:23:48.241  INFO 24048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-04-10 17:23:48.289  INFO 24048 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@4900a79b}
+2020-04-10 17:23:48.409  WARN 24048 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blog.size]; use collection function syntax instead [size(t.blog)].
+2020-04-10 17:23:48.416  INFO 24048 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:23:48.417  INFO 24048 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-10 17:23:55.239  INFO 24048 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@756f7561}
+2020-04-10 17:23:55.296  INFO 24048 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:23:55.296  INFO 24048 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:32:46.522  INFO 24048 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@70ea7d6a}
+2020-04-10 17:32:46.534  INFO 24048 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:32:46.534  INFO 24048 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:35:56.521  INFO 24048 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@2d6bbca7}
+2020-04-10 17:35:56.527  INFO 24048 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:35:56.527  INFO 24048 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:38:44.700  INFO 24048 --- [http-nio-8080-exec-2] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@7d20561f}
+2020-04-10 17:38:44.706  INFO 24048 --- [http-nio-8080-exec-2] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:38:44.707  INFO 24048 --- [http-nio-8080-exec-2] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:39:30.535  INFO 24048 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@88ed1a0}
+2020-04-10 17:39:30.546  INFO 24048 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:39:30.546  INFO 24048 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:49:14.628  INFO 24048 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@1ec1adef}
+2020-04-10 17:49:14.634  INFO 24048 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:49:14.634  INFO 24048 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:49:30.677  INFO 24048 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@4bc017a9}
+2020-04-10 17:49:30.682  INFO 24048 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:49:30.682  INFO 24048 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:50:40.850  INFO 24048 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@3b4ac45}
+2020-04-10 17:50:40.855  INFO 24048 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:50:40.855  INFO 24048 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:55:53.694  INFO 24048 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@17b27dd6}
+2020-04-10 17:55:53.707  INFO 24048 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:55:53.707  INFO 24048 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:57:18.051  INFO 22580 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 22580 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-10 17:57:18.057 DEBUG 22580 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 17:57:18.058  INFO 22580 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-10 17:57:18.159  INFO 22580 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 17:57:18.160  INFO 22580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 17:57:18.161  INFO 22580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 17:57:19.423  INFO 22580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 17:57:19.574  INFO 22580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138ms. Found 5 JPA repository interfaces.
+2020-04-10 17:57:19.813  WARN 22580 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-10 17:57:22.796  INFO 22580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-10 17:57:22.812  INFO 22580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-10 17:57:22.812  INFO 22580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 17:57:22.993  INFO 22580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-10 17:57:22.994  INFO 22580 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4833 ms
+2020-04-10 17:57:23.362  INFO 22580 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 17:57:23.476  INFO 22580 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 17:57:23.763  INFO 22580 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 17:57:23.994  INFO 22580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-10 17:57:24.226  INFO 22580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-10 17:57:24.274  INFO 22580 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-10 17:57:25.977  INFO 22580 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 17:57:25.992  INFO 22580 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 17:57:26.066  INFO 22580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-10 17:57:26.143  WARN 22580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-10 17:57:27.451  INFO 22580 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d14047f7-82a7-4824-8cb2-f9b0c7cf4cee
+
+2020-04-10 17:57:27.855  INFO 22580 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@582603ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e8bbc70, org.springframework.security.web.header.HeaderWriterFilter@5d82b760, org.springframework.security.web.csrf.CsrfFilter@2730333f, org.springframework.security.web.authentication.logout.LogoutFilter@3806fe8f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b4cdfee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70f391bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@544bbfb2, org.springframework.security.web.session.SessionManagementFilter@482a94d8, org.springframework.security.web.access.ExceptionTranslationFilter@1aa58be4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72c4279a]
+2020-04-10 17:57:28.134  INFO 22580 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:57:28.305  INFO 22580 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-10 17:57:28.953  INFO 22580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 17:57:28.961  INFO 22580 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 11.853 seconds (JVM running for 15.46)
+2020-04-10 17:57:53.293  INFO 22580 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 17:57:53.293  INFO 22580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-10 17:57:53.310  INFO 22580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-04-10 17:57:53.449  INFO 22580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@28d20d02}
+2020-04-10 17:57:53.725  INFO 22580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 17:57:53.725  INFO 22580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 17:58:33.628  INFO 22580 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:58:33.634  INFO 22580 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 17:58:33.645  INFO 22580 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-10 17:58:33.663  INFO 22580 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-10 17:58:41.659  INFO 10032 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 10032 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-10 17:58:41.665 DEBUG 10032 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 17:58:41.668  INFO 10032 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-10 17:58:41.732  INFO 10032 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 17:58:41.733  INFO 10032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 17:58:41.733  INFO 10032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 17:58:42.455  INFO 10032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 17:58:42.527  INFO 10032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 5 JPA repository interfaces.
+2020-04-10 17:58:42.665  WARN 10032 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-10 17:58:43.304  INFO 10032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-10 17:58:43.311  INFO 10032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-10 17:58:43.311  INFO 10032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 17:58:43.494  INFO 10032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-10 17:58:43.494  INFO 10032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1761 ms
+2020-04-10 17:58:43.683  INFO 10032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 17:58:43.734  INFO 10032 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 17:58:43.826  INFO 10032 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 17:58:43.901  INFO 10032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-10 17:58:44.013  INFO 10032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-10 17:58:44.030  INFO 10032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-10 17:58:44.754  INFO 10032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 17:58:44.761  INFO 10032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 17:58:44.829  INFO 10032 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-10 17:58:44.904  WARN 10032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-10 17:58:45.643  INFO 10032 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ae425955-30e0-4dec-981d-2d71e23810a6
+
+2020-04-10 17:58:45.729  INFO 10032 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69561e88, org.springframework.security.web.context.SecurityContextPersistenceFilter@32167a9c, org.springframework.security.web.header.HeaderWriterFilter@5021837d, org.springframework.security.web.csrf.CsrfFilter@c7e23dd, org.springframework.security.web.authentication.logout.LogoutFilter@3514fdf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@784d9464, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17eadf5a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5980f34, org.springframework.security.web.session.SessionManagementFilter@12b4d5d2, org.springframework.security.web.access.ExceptionTranslationFilter@7f0be8a5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49a09e47]
+2020-04-10 17:58:46.113  INFO 10032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:58:46.197  INFO 10032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-10 17:58:46.565  INFO 10032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 17:58:46.567  INFO 10032 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 5.721 seconds (JVM running for 8.097)
+2020-04-10 18:09:54.218  INFO 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 23580 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-10 18:09:54.221 DEBUG 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 18:09:54.222  INFO 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-10 18:09:54.425  INFO 23580 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 18:09:54.426  INFO 23580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 18:09:54.426  INFO 23580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 18:09:55.156  INFO 23580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 18:09:55.249  INFO 23580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 5 JPA repository interfaces.
+2020-04-10 18:09:55.472  WARN 23580 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-10 18:09:56.260  INFO 23580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-10 18:09:56.268  INFO 23580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-10 18:09:56.268  INFO 23580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 18:09:56.465  INFO 23580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-10 18:09:56.466  INFO 23580 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2040 ms
+2020-04-10 18:09:56.753  INFO 23580 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 18:09:56.810  INFO 23580 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 18:09:57.042  INFO 23580 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 18:09:57.169  INFO 23580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-10 18:09:57.299  INFO 23580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-10 18:09:57.316  INFO 23580 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-10 18:09:58.482  INFO 23580 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 18:09:58.489  INFO 23580 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 18:09:58.577  INFO 23580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-10 18:09:58.643  WARN 23580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-10 18:09:59.554  INFO 23580 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3e9713c8-89e0-4722-801a-e0f8e5ae6718
+
+2020-04-10 18:09:59.653  INFO 23580 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f7f82c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@64319e97, org.springframework.security.web.header.HeaderWriterFilter@6204ace2, org.springframework.security.web.csrf.CsrfFilter@502eb3ec, org.springframework.security.web.authentication.logout.LogoutFilter@6cd275ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ad5651d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d644e76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3639ce7, org.springframework.security.web.session.SessionManagementFilter@ee4ae97, org.springframework.security.web.access.ExceptionTranslationFilter@54fd2da0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f899aff]
+2020-04-10 18:10:00.127  INFO 23580 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 18:10:00.211  INFO 23580 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-10 18:10:00.685  INFO 23580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 18:10:00.687  INFO 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 7.283 seconds (JVM running for 9.85)
+2020-04-10 18:10:31.849  INFO 23580 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 18:10:31.849  INFO 23580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-10 18:10:31.873  INFO 23580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2020-04-10 18:10:31.941  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@45b77757}
+2020-04-10 18:10:32.087  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:10:32.087  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 18:17:03.732  INFO 23580 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 18:17:03.734  INFO 23580 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 18:17:03.740  INFO 23580 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-10 18:17:03.758  INFO 23580 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-10 18:17:05.338  INFO 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 23580 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-10 18:17:05.338 DEBUG 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 18:17:05.339  INFO 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-10 18:17:05.674  INFO 23580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 18:17:05.714  INFO 23580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 5 JPA repository interfaces.
+2020-04-10 18:17:05.783  WARN 23580 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-10 18:17:06.256  INFO 23580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-10 18:17:06.257  INFO 23580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-10 18:17:06.257  INFO 23580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 18:17:06.312  INFO 23580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-10 18:17:06.312  INFO 23580 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 970 ms
+2020-04-10 18:17:06.451  INFO 23580 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 18:17:06.459  INFO 23580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-04-10 18:17:06.468  INFO 23580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-04-10 18:17:06.468  INFO 23580 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-10 18:17:06.712  INFO 23580 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 18:17:06.713  INFO 23580 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 18:17:06.767  INFO 23580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-10 18:17:06.888  WARN 23580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-10 18:17:07.766  INFO 23580 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 89fb5338-891e-48d4-9314-2a56a7d5ee63
+
+2020-04-10 18:17:07.806  INFO 23580 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10bc5196, org.springframework.security.web.context.SecurityContextPersistenceFilter@12f9b2c3, org.springframework.security.web.header.HeaderWriterFilter@5d2231ef, org.springframework.security.web.csrf.CsrfFilter@3108b4ce, org.springframework.security.web.authentication.logout.LogoutFilter@2fa407d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@440e0eb0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8eff297, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42cfb745, org.springframework.security.web.session.SessionManagementFilter@66a3d41d, org.springframework.security.web.access.ExceptionTranslationFilter@16181723, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@673597c2]
+2020-04-10 18:17:08.064  INFO 23580 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 18:17:08.129  INFO 23580 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-10 18:17:08.416  INFO 23580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 18:17:08.417  INFO 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 3.14 seconds (JVM running for 437.579)
+2020-04-10 18:17:08.420  INFO 23580 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-10 18:17:08.542  INFO 23580 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 18:17:08.545  INFO 23580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-10 18:17:08.571  INFO 23580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2020-04-10 18:17:08.578  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@605ffaf2}
+2020-04-10 18:17:08.599  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:17:08.599  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 18:42:54.386  INFO 23580 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@5ff40b92}
+2020-04-10 18:42:54.392  INFO 23580 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:42:54.392  INFO 23580 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 18:45:32.251  INFO 23580 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@1815e914}
+2020-04-10 18:45:32.258  INFO 23580 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:45:32.258  INFO 23580 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 18:47:30.407  INFO 23580 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 18:47:30.409  INFO 23580 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 18:47:30.411  INFO 23580 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-04-10 18:47:30.414  INFO 23580 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-04-10 18:47:31.923  INFO 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 23580 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-10 18:47:31.923 DEBUG 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 18:47:31.923  INFO 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-10 18:47:32.229  INFO 23580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 18:47:32.263  INFO 23580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 5 JPA repository interfaces.
+2020-04-10 18:47:32.326  WARN 23580 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-10 18:47:32.750  INFO 23580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-10 18:47:32.751  INFO 23580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-10 18:47:32.751  INFO 23580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 18:47:32.799  INFO 23580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-10 18:47:32.800  INFO 23580 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 871 ms
+2020-04-10 18:47:32.907  INFO 23580 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 18:47:32.913  INFO 23580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-04-10 18:47:32.918  INFO 23580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-04-10 18:47:32.919  INFO 23580 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-10 18:47:33.105  INFO 23580 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 18:47:33.105  INFO 23580 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 18:47:33.139  INFO 23580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-10 18:47:33.174  WARN 23580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-10 18:47:33.619  INFO 23580 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1d0b72a1-725b-43b8-889d-af463a058856
+
+2020-04-10 18:47:33.662  INFO 23580 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ff7628e, org.springframework.security.web.context.SecurityContextPersistenceFilter@47e3e8b0, org.springframework.security.web.header.HeaderWriterFilter@780988ae, org.springframework.security.web.csrf.CsrfFilter@29a9bce9, org.springframework.security.web.authentication.logout.LogoutFilter@417dd350, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@446d2553, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70959988, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@daeefb, org.springframework.security.web.session.SessionManagementFilter@23c956d4, org.springframework.security.web.access.ExceptionTranslationFilter@7c0ff057, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57ba996b]
+2020-04-10 18:47:33.816  INFO 23580 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 18:47:33.866  INFO 23580 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-10 18:47:34.127  INFO 23580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 18:47:34.127  INFO 23580 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.273 seconds (JVM running for 2263.29)
+2020-04-10 18:47:34.129  INFO 23580 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-10 18:47:34.173  INFO 23580 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 18:47:34.174  INFO 23580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-10 18:47:34.182  INFO 23580 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-04-10 18:47:34.185  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@738962da}
+2020-04-10 18:47:34.201  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:47:34.201  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 18:47:41.044  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@5d3be47a}
+2020-04-10 18:47:41.049  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:47:41.049  INFO 23580 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 18:53:04.564  INFO 23580 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@2eb75ff0}
+2020-04-10 18:53:04.625  WARN 23580 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blog.size]; use collection function syntax instead [size(t.blog)].
+2020-04-10 18:53:04.632  INFO 23580 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:53:04.632  INFO 23580 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-10 18:53:07.013  INFO 23580 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@772f2ca9}
+2020-04-10 18:53:07.017  INFO 23580 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:53:07.017  INFO 23580 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 18:54:46.308  INFO 23580 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@33ac3625}
+2020-04-10 18:54:46.334  INFO 23580 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:54:46.334  INFO 23580 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-10 18:55:25.450  INFO 23580 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@4fc67e18}
+2020-04-10 18:55:25.456  INFO 23580 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 18:55:25.456  INFO 23580 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 19:04:22.496  INFO 26456 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 26456 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-10 19:04:22.514 DEBUG 26456 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 19:04:22.517  INFO 26456 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-10 19:04:22.606  INFO 26456 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 19:04:22.607  INFO 26456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 19:04:22.607  INFO 26456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 19:04:23.463  INFO 26456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 19:04:23.550  INFO 26456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76ms. Found 5 JPA repository interfaces.
+2020-04-10 19:04:23.706  WARN 26456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-10 19:04:26.062  INFO 26456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-10 19:04:26.079  INFO 26456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-10 19:04:26.080  INFO 26456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 19:04:26.275  INFO 26456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-10 19:04:26.275  INFO 26456 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3668 ms
+2020-04-10 19:04:26.675  INFO 26456 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 19:04:26.792  INFO 26456 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 19:04:27.102  INFO 26456 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 19:04:27.321  INFO 26456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-10 19:04:27.563  INFO 26456 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-10 19:04:27.611  INFO 26456 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-10 19:04:29.195  INFO 26456 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 19:04:29.212  INFO 26456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 19:04:29.285  INFO 26456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-10 19:04:29.362  WARN 26456 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-10 19:04:47.950  INFO 26456 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 92befb9f-4e6e-47e8-a0b4-8155436db7bb
+
+2020-04-10 19:05:07.095  INFO 26456 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a94122c, org.springframework.security.web.context.SecurityContextPersistenceFilter@16ae02b7, org.springframework.security.web.header.HeaderWriterFilter@3b321bfc, org.springframework.security.web.csrf.CsrfFilter@3962793b, org.springframework.security.web.authentication.logout.LogoutFilter@6b240367, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f06a152, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34912f83, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c77fa02, org.springframework.security.web.session.SessionManagementFilter@536d939f, org.springframework.security.web.access.ExceptionTranslationFilter@473685c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@480c41eb]
+2020-04-10 19:06:23.984  INFO 26456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 19:06:53.434  INFO 26456 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-10 19:09:12.533  INFO 26456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 19:09:13.478  INFO 26456 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 292.314 seconds (JVM running for 295.151)
+2020-04-10 19:13:16.686  INFO 26456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 19:13:16.748  INFO 26456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-10 19:13:25.621  INFO 26456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8818 ms
+2020-04-10 19:13:40.307  INFO 26456 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@50dd7eeb}
+2020-04-10 19:13:44.146  INFO 26456 --- [http-nio-8080-exec-2] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@4e80e013}
+2020-04-10 19:13:44.165  INFO 26456 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@19152482}
+2020-04-10 19:13:45.781  INFO 26456 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@4ffbec12}
+2020-04-10 19:14:00.598  INFO 26456 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@3d3bb68d}
+2020-04-10 19:14:30.479  INFO 26456 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@6f32c388}
+2020-04-10 19:14:41.556  WARN 26456 --- [http-nio-8080-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blog.size]; use collection function syntax instead [size(t.blog)].
+2020-04-10 19:14:41.566  WARN 26456 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blog.size]; use collection function syntax instead [size(t.blog)].
+2020-04-10 19:14:41.560  WARN 26456 --- [http-nio-8080-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blog.size]; use collection function syntax instead [size(t.blog)].
+2020-04-10 19:14:42.152  WARN 26456 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blog.size]; use collection function syntax instead [size(t.blog)].
+2020-04-10 19:14:44.134  INFO 26456 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 19:14:44.159  INFO 26456 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 19:14:44.145  INFO 26456 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 19:14:44.138  INFO 26456 --- [http-nio-8080-exec-2] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 19:14:44.310  INFO 26456 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-10 19:14:44.341  INFO 26456 --- [http-nio-8080-exec-5] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-10 19:14:44.373  INFO 26456 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-10 19:14:44.411  INFO 26456 --- [http-nio-8080-exec-2] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-10 19:14:46.309  INFO 26456 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 19:14:46.324  INFO 26456 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 19:14:46.490  INFO 26456 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 19:14:46.514  INFO 26456 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 19:15:05.447  WARN 26456 --- [http-nio-8080-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [608] milliseconds.
+2020-04-10 19:20:07.347  INFO 26456 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@23d3d977}
+2020-04-10 19:20:10.483  INFO 26456 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 19:20:10.570  INFO 26456 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-10 19:24:58.720  INFO 26456 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 19:24:58.724  INFO 26456 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 19:24:58.732  INFO 26456 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-10 19:24:58.763  INFO 26456 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-10 19:24:58.873 ERROR 26456 --- [http-nio-8080-exec-10] c.c.blog.handler.ExceptionHandler        : Requst URL : /error, Exception : {}
+
+java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:507)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:586)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:155)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:497)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:680)
+	at com.sun.proxy.$Proxy103.createEntityManager(Unknown Source)
+	at org.springframework.orm.jpa.EntityManagerFactoryAccessor.createEntityManager(EntityManagerFactoryAccessor.java:171)
+	at org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor.preHandle(OpenEntityManagerInViewInterceptor.java:88)
+	at org.springframework.web.servlet.handler.WebRequestHandlerInterceptorAdapter.preHandle(WebRequestHandlerInterceptorAdapter.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-10 19:24:58.875  WARN 26456 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalStateException: EntityManagerFactory is closed]
+2020-04-10 19:25:05.899  INFO 22524 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 22524 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-10 19:25:05.905 DEBUG 22524 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 19:25:05.914  INFO 22524 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-10 19:25:06.273  INFO 22524 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-10 19:25:06.274  INFO 22524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 19:25:06.280  INFO 22524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 19:25:07.171  INFO 22524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-10 19:25:07.285  INFO 22524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104ms. Found 5 JPA repository interfaces.
+2020-04-10 19:25:07.474  WARN 22524 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-10 19:25:08.189  INFO 22524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-10 19:25:08.198  INFO 22524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-10 19:25:08.198  INFO 22524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 19:25:08.461  INFO 22524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-10 19:25:08.461  INFO 22524 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2180 ms
+2020-04-10 19:25:08.747  INFO 22524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-10 19:25:08.817  INFO 22524 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-10 19:25:08.922  INFO 22524 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-10 19:25:09.004  INFO 22524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-10 19:25:09.118  INFO 22524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-10 19:25:09.138  INFO 22524 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-10 19:25:09.964  INFO 22524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-10 19:25:09.970  INFO 22524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-10 19:25:10.025  INFO 22524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-10 19:25:10.082  WARN 22524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-10 19:25:10.786  INFO 22524 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9bd5ce24-09c9-4a4c-87de-e4d62982b78a
+
+2020-04-10 19:25:10.875  INFO 22524 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e6a8918, org.springframework.security.web.context.SecurityContextPersistenceFilter@40fe7bce, org.springframework.security.web.header.HeaderWriterFilter@c5a1c42, org.springframework.security.web.csrf.CsrfFilter@35f6b8f5, org.springframework.security.web.authentication.logout.LogoutFilter@2b2bdcd6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20f42198, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63ed9b06, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32cf625e, org.springframework.security.web.session.SessionManagementFilter@12230902, org.springframework.security.web.access.ExceptionTranslationFilter@73ce472b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2cc8fcb2]
+2020-04-10 19:25:11.269  INFO 22524 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 19:25:11.394  INFO 22524 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-10 19:25:11.868  INFO 22524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-10 19:25:11.871  INFO 22524 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 7.061 seconds (JVM running for 10.263)
+2020-04-10 19:26:33.902  INFO 22524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 19:26:33.902  INFO 22524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-10 19:26:33.911  INFO 22524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-04-10 19:26:33.959  INFO 22524 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/3', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@4d2cc83d}
+2020-04-10 19:26:34.101  INFO 22524 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-10 19:26:34.101  INFO 22524 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : blogArticle

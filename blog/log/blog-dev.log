@@ -1,0 +1,209 @@
+2020-04-22 09:13:18.326  INFO 6956 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 6956 (D:\ideatest\file_path\blog\target\classes started by ÈÖ∑ÈÖ∑ÁöÑ‰∏Å in D:\ideatest\file_path\blog)
+2020-04-22 09:13:18.378 DEBUG 6956 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-22 09:13:18.379  INFO 6956 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-22 09:13:18.437  INFO 6956 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-22 09:13:18.437  INFO 6956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-22 09:13:18.438  INFO 6956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-22 09:13:19.904  INFO 6956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-22 09:13:19.998  INFO 6956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 5 JPA repository interfaces.
+2020-04-22 09:13:20.183  WARN 6956 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-22 09:13:21.136  INFO 6956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-22 09:13:21.148  INFO 6956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-22 09:13:21.149  INFO 6956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-22 09:13:21.384  INFO 6956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-22 09:13:21.384  INFO 6956 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2946 ms
+2020-04-22 09:13:21.616  INFO 6956 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-22 09:13:21.697  INFO 6956 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-22 09:13:21.899  INFO 6956 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-22 09:13:22.059  INFO 6956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-22 09:13:22.240  INFO 6956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-22 09:13:22.260  INFO 6956 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-22 09:13:23.375  INFO 6956 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-22 09:13:23.381  INFO 6956 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 09:13:23.459  INFO 6956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-22 09:13:23.515  WARN 6956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-22 09:13:24.447  INFO 6956 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 181875d8-f8d3-4b81-9b03-56220a7d452e
+
+2020-04-22 09:13:24.579  INFO 6956 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c328850, org.springframework.security.web.context.SecurityContextPersistenceFilter@59175e20, org.springframework.security.web.header.HeaderWriterFilter@658abf4, org.springframework.security.web.csrf.CsrfFilter@6130e7cb, org.springframework.security.web.authentication.logout.LogoutFilter@793b0307, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c7fe66b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1fbfc063, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ca864d, org.springframework.security.web.session.SessionManagementFilter@4b5a926e, org.springframework.security.web.access.ExceptionTranslationFilter@6ad2771b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72e9dc38]
+2020-04-22 09:13:24.856  INFO 6956 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-22 09:13:25.188  INFO 6956 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-22 09:13:26.269  INFO 6956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-22 09:13:26.272  INFO 6956 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 8.968 seconds (JVM running for 13.701)
+2020-04-22 09:14:16.315  INFO 6956 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-22 09:14:16.315  INFO 6956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-22 09:14:16.325  INFO 6956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-22 09:14:16.397  INFO 6956 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@c716de3}
+2020-04-22 09:14:16.513  WARN 6956 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blog.size]; use collection function syntax instead [size(t.blog)].
+2020-04-22 09:14:16.553  INFO 6956 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-22 09:14:16.553  INFO 6956 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-22 09:21:39.547  INFO 6956 --- [http-nio-8080-exec-2] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@25e2251d}
+2020-04-22 09:21:39.587  INFO 6956 --- [http-nio-8080-exec-2] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-22 09:21:39.588  INFO 6956 --- [http-nio-8080-exec-2] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-22 09:22:14.375  INFO 6956 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@45effdf5}
+2020-04-22 09:22:14.410  INFO 6956 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-22 09:22:14.411  INFO 6956 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-22 09:22:30.236  INFO 6956 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@617beb85}
+2020-04-22 09:22:30.274  INFO 6956 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-22 09:22:30.274  INFO 6956 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-22 09:23:24.366  INFO 6956 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : {url='/time', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.TimeShowController.showPage', args=[Ljava.lang.Object;@333bcd7}
+2020-04-22 09:23:24.399  INFO 6956 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-22 09:23:24.399  INFO 6956 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : time
+2020-04-22 09:23:29.389  INFO 6956 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : {url='/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.allBlogs', args=[Ljava.lang.Object;@7e48981}
+2020-04-22 09:23:29.401  INFO 6956 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-22 09:23:29.401  INFO 6956 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : article
+2020-04-22 09:23:31.550  INFO 6956 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : {url='/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.detailPage', args=[Ljava.lang.Object;@79506571}
+2020-04-22 09:23:31.613  INFO 6956 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-22 09:23:31.613  INFO 6956 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : blogArticle
+2020-04-22 09:25:31.370  INFO 15872 --- [main] com.coolding.blog.BlogApplicationTests   : Starting BlogApplicationTests on DESKTOP-USMRK3F with PID 15872 (started by ø·ø·µƒ∂° in D:\ideatest\file_path\blog)
+2020-04-22 09:25:31.372 DEBUG 15872 --- [main] com.coolding.blog.BlogApplicationTests   : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-22 09:25:31.374  INFO 15872 --- [main] com.coolding.blog.BlogApplicationTests   : No active profile set, falling back to default profiles: default
+2020-04-22 09:25:32.498  INFO 15872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-22 09:25:32.600  INFO 15872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 5 JPA repository interfaces.
+2020-04-22 09:25:32.786  WARN 15872 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-22 09:25:33.760  INFO 15872 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-22 09:25:33.848  INFO 15872 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-22 09:25:34.002  INFO 15872 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-22 09:25:35.087  INFO 15872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-22 09:25:35.276  INFO 15872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-22 09:25:35.314  INFO 15872 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-22 09:25:36.367  INFO 15872 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-22 09:25:36.376  INFO 15872 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 09:25:36.517  WARN 15872 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-22 09:25:38.211  INFO 15872 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ea7c6cce-b6f5-4895-bfb3-9ec811bee373
+
+2020-04-22 09:25:38.456  INFO 15872 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b849fa6, org.springframework.security.web.context.SecurityContextPersistenceFilter@41f90b10, org.springframework.security.web.header.HeaderWriterFilter@7612116b, org.springframework.security.web.csrf.CsrfFilter@74bfdd66, org.springframework.security.web.authentication.logout.LogoutFilter@50bb1c1f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2773504f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21e39b82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fbbdd8a, org.springframework.security.web.session.SessionManagementFilter@8d5da7e, org.springframework.security.web.access.ExceptionTranslationFilter@4ea48b2e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c3007d]
+2020-04-22 09:25:39.201  INFO 15872 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-22 09:25:39.394  INFO 15872 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-22 09:25:40.303  INFO 15872 --- [main] com.coolding.blog.BlogApplicationTests   : Started BlogApplicationTests in 9.629 seconds (JVM running for 11.312)
+2020-04-22 09:25:40.808  INFO 15872 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-22 09:25:40.811  INFO 15872 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 09:25:40.818  INFO 15872 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-22 09:25:40.979  INFO 15872 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-22 10:29:13.154  INFO 17960 --- [main] com.coolding.blog.BlogApplicationTests   : Starting BlogApplicationTests on DESKTOP-USMRK3F with PID 17960 (started by ø·ø·µƒ∂° in D:\ideatest\file_path\blog)
+2020-04-22 10:29:13.161 DEBUG 17960 --- [main] com.coolding.blog.BlogApplicationTests   : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-22 10:29:13.164  INFO 17960 --- [main] com.coolding.blog.BlogApplicationTests   : No active profile set, falling back to default profiles: default
+2020-04-22 10:29:15.003  INFO 17960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-22 10:29:15.185  INFO 17960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 168ms. Found 5 JPA repository interfaces.
+2020-04-22 10:29:15.594  WARN 17960 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-22 10:29:17.025  INFO 17960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-22 10:29:17.230  INFO 17960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-22 10:29:17.533  INFO 17960 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-22 10:29:19.230  INFO 17960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-22 10:29:19.508  INFO 17960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-22 10:29:19.541  INFO 17960 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-22 10:29:20.984  INFO 17960 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-22 10:29:20.996  INFO 17960 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 10:29:21.384  WARN 17960 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-22 10:29:25.732  INFO 17960 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a9ea4405-3d1c-48db-9288-ba10d429dbf8
+
+2020-04-22 10:29:26.829  INFO 17960 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ff8e744, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f9a8ddc, org.springframework.security.web.header.HeaderWriterFilter@67593f7b, org.springframework.security.web.csrf.CsrfFilter@1dd76982, org.springframework.security.web.authentication.logout.LogoutFilter@76b642aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@256a5df0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9f2fe2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@409395b9, org.springframework.security.web.session.SessionManagementFilter@1fca53a7, org.springframework.security.web.access.ExceptionTranslationFilter@65a4b9d6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b849fa6]
+2020-04-22 10:29:29.254  INFO 17960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-22 10:29:29.908  INFO 17960 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-22 10:29:31.494  INFO 17960 --- [main] com.coolding.blog.BlogApplicationTests   : Started BlogApplicationTests in 19.267 seconds (JVM running for 21.14)
+2020-04-22 10:29:32.175  INFO 17960 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-22 10:29:32.195  INFO 17960 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 10:29:32.213  INFO 17960 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-22 10:29:32.256  INFO 17960 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-22 11:18:50.543  INFO 18264 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 18264 (D:\ideatest\file_path\blog\target\classes started by ÈÖ∑ÈÖ∑ÁöÑ‰∏Å in D:\ideatest\file_path\blog)
+2020-04-22 11:18:50.545 DEBUG 18264 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-22 11:18:50.546  INFO 18264 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-22 11:18:50.592  INFO 18264 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-22 11:18:50.593  INFO 18264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-22 11:18:50.593  INFO 18264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-22 11:18:51.527  INFO 18264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-22 11:18:51.624  INFO 18264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85ms. Found 5 JPA repository interfaces.
+2020-04-22 11:18:51.844  WARN 18264 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-22 11:18:52.876  INFO 18264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-22 11:18:52.886  INFO 18264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-22 11:18:52.888  INFO 18264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-22 11:18:53.125  INFO 18264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-22 11:18:53.126  INFO 18264 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2533 ms
+2020-04-22 11:18:53.388  INFO 18264 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-22 11:18:53.456  INFO 18264 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-22 11:18:53.577  INFO 18264 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-22 11:18:53.668  INFO 18264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-22 11:18:53.779  INFO 18264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-22 11:18:53.793  INFO 18264 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-22 11:18:54.575  INFO 18264 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-22 11:18:54.582  INFO 18264 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 11:18:54.657  INFO 18264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-22 11:18:54.762  WARN 18264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-22 11:18:55.916  INFO 18264 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 20592147-31e4-461a-b395-a8203df5052c
+
+2020-04-22 11:18:56.025  INFO 18264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@404cc940, org.springframework.security.web.context.SecurityContextPersistenceFilter@3fd4c936, org.springframework.security.web.header.HeaderWriterFilter@3ca11968, org.springframework.security.web.csrf.CsrfFilter@249d064a, org.springframework.security.web.authentication.logout.LogoutFilter@75ef19c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a9318bc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@229b0f24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55a10ced, org.springframework.security.web.session.SessionManagementFilter@19c85ac0, org.springframework.security.web.access.ExceptionTranslationFilter@a5b0be7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7883bbc3]
+2020-04-22 11:18:56.620  INFO 18264 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-22 11:18:56.772  INFO 18264 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-22 11:18:57.333  INFO 18264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-22 11:18:57.336  INFO 18264 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 7.39 seconds (JVM running for 12.193)
+2020-04-22 11:19:07.628  INFO 18264 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-22 11:19:07.628  INFO 18264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-22 11:19:07.641  INFO 18264 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-04-22 11:19:07.698  INFO 18264 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@42b4748c}
+2020-04-22 11:19:07.829  WARN 18264 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blog.size]; use collection function syntax instead [size(t.blog)].
+2020-04-22 11:19:07.873  INFO 18264 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-22 11:19:07.873  INFO 18264 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-22 11:19:23.303  INFO 18264 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@4e25f1e0}
+2020-04-22 11:19:23.343  INFO 18264 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-22 11:19:23.344  INFO 18264 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-22 11:21:20.454  INFO 18428 --- [main] com.coolding.blog.BlogApplicationTests   : Starting BlogApplicationTests on DESKTOP-USMRK3F with PID 18428 (started by ø·ø·µƒ∂° in D:\ideatest\file_path\blog)
+2020-04-22 11:21:20.471 DEBUG 18428 --- [main] com.coolding.blog.BlogApplicationTests   : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-22 11:21:20.474  INFO 18428 --- [main] com.coolding.blog.BlogApplicationTests   : No active profile set, falling back to default profiles: default
+2020-04-22 11:21:22.122  INFO 18428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-22 11:21:22.300  INFO 18428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159ms. Found 5 JPA repository interfaces.
+2020-04-22 11:21:22.733  WARN 18428 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-22 11:21:24.492  INFO 18428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-22 11:21:24.647  INFO 18428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-22 11:21:24.839  INFO 18428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-22 11:21:26.198  INFO 18428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-22 11:21:26.454  INFO 18428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-22 11:21:26.481  INFO 18428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-22 11:21:27.808  INFO 18428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-22 11:21:27.820  INFO 18428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 11:21:28.084  WARN 18428 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-22 11:21:33.245  INFO 18428 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7463e5a9-2ffb-4d60-a6bc-3b894ecbc3d8
+
+2020-04-22 11:21:33.914  INFO 18428 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55f6f965, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b6cad77, org.springframework.security.web.header.HeaderWriterFilter@8d5da7e, org.springframework.security.web.csrf.CsrfFilter@34070bd2, org.springframework.security.web.authentication.logout.LogoutFilter@73ae82da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40dee07b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2cf88901, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40ddf339, org.springframework.security.web.session.SessionManagementFilter@6edd4fe2, org.springframework.security.web.access.ExceptionTranslationFilter@3dea1ecc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2095c331]
+2020-04-22 11:21:35.980  INFO 18428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-22 11:21:36.944  INFO 18428 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-22 11:21:38.973  INFO 18428 --- [main] com.coolding.blog.BlogApplicationTests   : Started BlogApplicationTests in 19.566 seconds (JVM running for 21.488)
+2020-04-22 11:21:39.354  INFO 18428 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-22 11:21:39.359  INFO 18428 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 11:21:39.363  INFO 18428 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-22 11:21:39.380  INFO 18428 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-22 13:07:41.705  INFO 19752 --- [main] com.coolding.blog.BlogApplicationTests   : Starting BlogApplicationTests on DESKTOP-USMRK3F with PID 19752 (started by ø·ø·µƒ∂° in D:\ideatest\file_path\blog)
+2020-04-22 13:07:41.725 DEBUG 19752 --- [main] com.coolding.blog.BlogApplicationTests   : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-22 13:07:41.725  INFO 19752 --- [main] com.coolding.blog.BlogApplicationTests   : No active profile set, falling back to default profiles: default
+2020-04-22 13:07:44.425  INFO 19752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-22 13:07:44.601  INFO 19752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153ms. Found 5 JPA repository interfaces.
+2020-04-22 13:07:45.066  WARN 19752 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-22 13:07:47.562  INFO 19752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-22 13:07:47.819  INFO 19752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-22 13:07:48.182  INFO 19752 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-22 13:07:50.771  INFO 19752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-22 13:07:51.473  INFO 19752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-22 13:07:51.530  INFO 19752 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-22 13:07:53.900  INFO 19752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-22 13:07:53.911  INFO 19752 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 13:07:54.332  WARN 19752 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-22 13:08:00.244  INFO 19752 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1a5e4c82-d1a7-40a3-a32e-0a4887f8e3f3
+
+2020-04-22 13:08:01.092  INFO 19752 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c83ed77, org.springframework.security.web.context.SecurityContextPersistenceFilter@40dee07b, org.springframework.security.web.header.HeaderWriterFilter@16ef1160, org.springframework.security.web.csrf.CsrfFilter@34070bd2, org.springframework.security.web.authentication.logout.LogoutFilter@2cd5b19c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f9a8ddc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c910acd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d271a54, org.springframework.security.web.session.SessionManagementFilter@5366575d, org.springframework.security.web.access.ExceptionTranslationFilter@40a7974, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b795db7]
+2020-04-22 13:08:04.102  INFO 19752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-22 13:08:04.929  INFO 19752 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-22 13:08:07.863  INFO 19752 --- [main] com.coolding.blog.BlogApplicationTests   : Started BlogApplicationTests in 27.475 seconds (JVM running for 29.967)
+2020-04-22 13:08:08.123  INFO 19752 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-22 13:08:08.127  INFO 19752 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-22 13:08:08.135  INFO 19752 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-22 13:08:08.216  INFO 19752 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: 668866
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  thymeleaf:
+    mode: HTML
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+logging:
+  level:
+    root: info
+    com.coolding.blog: debug
+  file:
+    name: log/blog-dev.log
+server:
+  port: 8080
+
+
+comment.avatar: /img/avatar.png

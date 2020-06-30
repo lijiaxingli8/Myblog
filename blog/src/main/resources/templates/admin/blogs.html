@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>博客管理</title>
+    <link rel="stylesheet" href="../../static/css/me.css" th:href="@{/css/me.css}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.10.0/tocbot.css">
+</head>
+<body>
+<!--导航-->
+<nav class="ui inverted attached segment padded-tb-mini " >
+    <div class="ui container stackable">
+        <div class="ui inverted stackable secondary menu" >
+            <h2 class="ui teal header item">Coolding</h2>
+            <a href="#"  th:href="@{/admin/blogs}" class="item active"><i class="home icon"></i>博客</a>
+            <a href="#" th:href="@{/admin/types}"  class="item"><i class="idea icon"></i>分类</a>
+            <a href="#" th:href="@{/admin/tags}" class="item"><i class="tags icon"></i>标签</a>
+
+            <div class="right mobile-hide menu">
+                <div class="ui dropdown item">
+                    <div class="text">
+                        <img src="../../static/img/yao.jpg" th:src="@{/img/yao.jpg}" class="ui avatar image" alt="">
+                        Coolding
+                    </div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <a th:href="@{/admin/logout}" class="item">注销</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui icon menu toggle black button m-top-right m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </div>
+
+</nav>
+    <!--二级导航-->
+    <div class="ui attached pointing menu">
+        <div class="ui container">
+            <div class="right menu">
+                <a th:href="@{/admin/blogs/add}" class="item">发布</a>
+                <a th:href="@{/admin/blogs}" class="teal active item">列表</a>
+            </div>
+        </div>
+
+    </div>
+    <!--中间内容-->
+    <div class="padded-tb-massive">
+        <div class="ui container">
+
+
+            <!--    <div  class="ui segment form">
+                 <input type="hidden" name="page">
+                   <div class="inline fields">
+                        <div class="field">
+                            <input type="text" name="title" placeholder="Title">
+                        </div>
+                      <div class="field">
+                          <div class="ui labeled action input">
+                              <div class="ui type selection dropdown">
+                                  <input type="hidden" name="typeId">
+                                  <i class="dropdown icon"></i>
+                                  <div class="default text">分类</div>
+                                  <div class="menu">
+                                      <div class="item" th:each="type : ${types}"  th:data-value="${type.id}" th:text="${type.name}">开发者</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <button id="clear-btn" class="ui clear button">clear</button>
+
+                      </div>
+                        <div class="field">
+                            <div class="ui checkbox">
+                                <input type="checkbox" id="recommend" name="recommend">
+                                <label for="recommend">推荐</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <button  type="button" id="search-btn"  class="ui mini teal basic button"> <i class="search icon"></i>搜索</button>
+                        </div>
+                    </div>
+            </div> -->
+            <div id="table-container">
+                <table th:fragment="bloglist" class="ui table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>标题</th>
+                        <th>类型</th>
+                        <th>推荐</th>
+                        <th>是否发布</th>
+                        <th>更新时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr th:each="blog,iterStat : ${page.content}" >
+                        <td th:text="${iterStat.count}">1</td>
+                        <td th:text="${blog.title}">java</td>
+                        <td th:text="${blog.type.name}">java学习</td>
+                        <td th:text="${blog.recommend} ? '是' : '否'">是</td>
+                        <td th:text="${blog.published} ? '发布' : '草稿'"></td>
+                        <td th:text="${blog.updateTime}">2012-8-5</td>
+                        <td>
+                            <a href="" th:href="@{/admin/blogs/{id}/edit(id = ${blog.id})}" class="ui mini teal basic button">编辑</a>
+                            <a href="" th:href="@{/admin/blogs/{id}/delete(id = ${blog.id})}" class="ui mini red basic button">删除</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                    <!-- Tip -->
+                    <div class="ui success message close" th:unless="${#strings.isEmpty(message)}">
+                        <i class="close icon"></i>
+                        <div class="header">提示：</div>
+                        <p th:text="${message}">操作成功</p>
+                    </div>
+                </table>
+            </div>
+
+
+            <tfoot>
+                <tr>
+                    <th colspan="7">
+                        <div class="ui floated pagination mini menu" th:if="${page.totalPages}>1">
+                            <a href="#" th:href="@{/admin/blogs(page=${page.number}-1)}" class="item">上一页</a>
+                            <a href="" th:href="@{/admin/blogs(page=${page.number}+1)}"class="item">下一页</a>
+                            <!--<a onclick="page(this)" th:attr="data-page=${page.number}-1" th:unless="${page.first}" class="item">上一页</a>
+                            <a onclick="page(this)" th:attr="data-page=${page.number}+1" th:unless="${page.last}" class="item">下一页</a>-->
+                        </div>
+                        <a href="" th:href="@{/admin/blogs/add}" class="ui mini right floated pink basic button">新增</a>
+                    </th>
+
+                </tr>
+            </tfoot>
+
+        </div>
+
+    </div>
+
+    <!--底部-->
+    <footer class="ui inverted vertical segment">
+        <h2 align="center">coolding.xyz</h2>
+    </footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+    <script>
+
+        //关闭提示框
+        $('.message.close')
+            .on('click',function () {
+                $(this)
+                    .closest('.message')
+                    .transition('fade');
+            });
+
+        $('.menu.toggle').click(function () {
+           $('.m-item').toggleClass('m-item');
+
+        });
+        //用户下拉列表
+        $('.ui.dropdown')
+            .dropdown()
+        ;
+
+        function page(obj) {
+            $("[name = 'page']").val($(obj).data("page"));
+            loaddata();
+        }
+
+        $('#search-btn').click(function () {
+            loaddata();
+        });
+
+        $('#clear-btn')
+            .on('click',function () {
+                $('.ui.type.dropdown')
+                    .dropdown('clear')
+            });
+
+        function loaddata() {
+            $('#table-container').load(/*[[@{/admin/blogs/search}]]*/"/admin/blogs/search",{
+                title : $("[name = 'title']").val(),
+                typeId: $("[name = 'typeId']").val(),
+                recommend:  $("[name = 'recommend']").prop('checked'),
+                page :  $("[name = 'page']").val()
+            });
+        }
+
+
+    </script>
+
+
+</body>
+</html>

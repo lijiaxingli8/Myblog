@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+    <link href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/index.css" th:href="@{/css/index.css}"  />
+    <link rel="stylesheet" type="text/css" href="../static/css/classifiation.css" th:href="@{/css/classifiation.css}" />
+  </head>
+  <body>
+  		<div class="returntop">
+  		<a class="btn btn-default" href="#" role="button" style="position:fixed;right:1%;bottom:2% ;background-color: #49B1F5;color: white;border: none;">
+			Top
+			</a>
+  	</div>
+		<div th:replace="_fragments::nav"></div>
+		<div class="container-fluid articleimg" style="background: url(https://img-blog.csdnimg.cn/20200418152446341.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpamlheGluZ2xpOA==,size_16,color_FFFFFF,t_70);background-position: center;background-size: cover;background-attachment: local;">
+			<h1>CoolDing</h1>
+		</div>
+		<div class="container singleaboutme">
+			<h2 style="color: palevioletred">CoolDing</h2>
+			<p>一位在新手村升级的格子衫战士 @ v @</p>
+			<h4 style="color: palevioletred">公众号：</h4>
+			<p>新手哪里来的公众号</p>
+			<h4 style="color: palevioletred">邮箱：</h4>
+			<p>lijiaxingli8@163.com</p>
+			
+			<h4 style="color: palevioletred" >bilibili：</h4>
+			<p>毫不讲李先生</p>
+			<h4 style="color: palevioletred" >小记：</h4>
+			<p>博主是一名大三学生，专业是数据科学与大数据技术，此博客成立于钉钉时代，并特此感谢我的好兄弟阿搓帮我设计的前端页面</p>
+		</div>
+		<footer class="container-fluid">
+			<div class="container">
+				<p style="color: #777777;">©2020 By CoolDing</p>
+				<p style="color: #777777;"> CoolDing 豫IPC备 668866号</p>
+			</div>
+		</footer>
+		<script src="js/jquery.min.js" th:src="@{/js/jquery.min.js}"></script>
+		<script src="js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+    <script>
+			function scroll() {
+				var top = $(".singleaboutme").offset().top;//获取导航栏变色的位置距顶部的高度
+				var scrollTop = $(window).scrollTop();//获取当前窗口距顶部的高度
+				if (scrollTop < top) {
+					$('.allnav').css('background-color', 'rgba(0,0,0,0)');
+				} else {
+					$('.allnav').css('background-color', 'rgba(0,0,0,0.6)');
+				}
+			}
+			$(window).on('scroll', function() {
+				scroll()
+			});
+	</script>
+  </body>
+</html>

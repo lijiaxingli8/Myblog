@@ -1,0 +1,1272 @@
+2020-04-05 16:01:25.742  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 13392 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 16:01:25.747 DEBUG 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 16:01:25.747  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 16:01:25.832  INFO 13392 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-05 16:01:25.832  INFO 13392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-05 16:01:25.832  INFO 13392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-05 16:01:27.554  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 16:01:27.632  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74ms. Found 4 JPA repository interfaces.
+2020-04-05 16:01:27.802  WARN 13392 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 16:01:29.212  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 16:01:29.222  INFO 13392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 16:01:29.222  INFO 13392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 16:01:29.452  INFO 13392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 16:01:29.462  INFO 13392 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3628 ms
+2020-04-05 16:01:29.702  INFO 13392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 16:01:29.772  INFO 13392 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-05 16:01:30.092  INFO 13392 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-05 16:01:30.274  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-05 16:01:30.514  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-05 16:01:30.532  INFO 13392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 16:01:31.672  INFO 13392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 16:01:31.682  INFO 13392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:01:31.792  INFO 13392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 16:01:31.872  WARN 13392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 16:01:32.922  INFO 13392 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2b2934c7-8f0a-42e0-be09-b6e9d4f02cd2
+
+2020-04-05 16:01:33.092  INFO 13392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68afae40, org.springframework.security.web.context.SecurityContextPersistenceFilter@30bf9bf7, org.springframework.security.web.header.HeaderWriterFilter@3ef38678, org.springframework.security.web.csrf.CsrfFilter@558c30de, org.springframework.security.web.authentication.logout.LogoutFilter@3eb05c5a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d1e23d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bba4d8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@215512c0, org.springframework.security.web.session.SessionManagementFilter@f3005ee, org.springframework.security.web.access.ExceptionTranslationFilter@7fce9149, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@648a4ab]
+2020-04-05 16:01:33.482  INFO 13392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:01:33.597  INFO 13392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 16:01:34.642  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 16:01:34.647  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 10.229 seconds (JVM running for 16.171)
+2020-04-05 16:01:48.872  INFO 13392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 16:01:48.882  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 16:01:48.892  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-05 16:01:48.932  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@d7df7ea}
+2020-04-05 16:01:48.942  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:01:48.942  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : /index
+2020-04-05 16:02:02.102  INFO 13392 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:02:02.102  INFO 13392 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:02:02.102  INFO 13392 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-05 16:02:02.122  INFO 13392 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-05 16:02:03.222  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 13392 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 16:02:03.222 DEBUG 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 16:02:03.222  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 16:02:03.637  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 16:02:03.732  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 4 JPA repository interfaces.
+2020-04-05 16:02:03.840  WARN 13392 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 16:02:04.324  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 16:02:04.327  INFO 13392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 16:02:04.327  INFO 13392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 16:02:04.443  INFO 13392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 16:02:04.443  INFO 13392 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1215 ms
+2020-04-05 16:02:04.553  INFO 13392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 16:02:04.553  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-04-05 16:02:04.562  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-04-05 16:02:04.562  INFO 13392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 16:02:04.762  INFO 13392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 16:02:04.762  INFO 13392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:02:04.802  INFO 13392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 16:02:04.862  WARN 13392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 16:02:05.254  INFO 13392 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 30fe41f0-fe10-4db2-8b56-e58b1910060f
+
+2020-04-05 16:02:05.294  INFO 13392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4504e6a3, org.springframework.security.web.context.SecurityContextPersistenceFilter@2390b76a, org.springframework.security.web.header.HeaderWriterFilter@108783a7, org.springframework.security.web.csrf.CsrfFilter@29506bcb, org.springframework.security.web.authentication.logout.LogoutFilter@4c2a9881, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b55bfcd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@476383bb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47025ae2, org.springframework.security.web.session.SessionManagementFilter@9b49ba4, org.springframework.security.web.access.ExceptionTranslationFilter@7507b144, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73313080]
+2020-04-05 16:02:05.467  INFO 13392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:02:05.532  INFO 13392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 16:02:05.882  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 16:02:05.882  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.697 seconds (JVM running for 47.407)
+2020-04-05 16:02:05.882  INFO 13392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 16:02:11.502  INFO 13392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 16:02:11.502  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 16:02:11.504  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-04-05 16:02:11.512  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@265ab43a}
+2020-04-05 16:02:11.512  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:02:11.512  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:02:12.372  INFO 13392 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@420b9a54}
+2020-04-05 16:02:12.372  INFO 13392 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:02:12.372  INFO 13392 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:02:57.602  INFO 13392 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@4b0c9d46}
+2020-04-05 16:02:57.602  INFO 13392 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:02:57.602  INFO 13392 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:04:08.042  INFO 13392 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@4e52158}
+2020-04-05 16:04:08.042  INFO 13392 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:04:08.042  INFO 13392 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:04:09.422  INFO 13392 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@a31977d}
+2020-04-05 16:04:09.422  INFO 13392 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:04:09.422  INFO 13392 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:11:59.756  INFO 13392 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@2155aabc}
+2020-04-05 16:11:59.756  INFO 13392 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:11:59.756  INFO 13392 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:12:08.953  INFO 13392 --- [Thread-33] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:12:08.956  INFO 13392 --- [Thread-33] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:12:08.956  INFO 13392 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-04-05 16:12:09.003  INFO 13392 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-04-05 16:12:10.806  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 13392 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 16:12:10.806 DEBUG 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 16:12:10.806  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 16:12:11.055  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 16:12:11.096  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 4 JPA repository interfaces.
+2020-04-05 16:12:11.148  WARN 13392 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 16:12:11.416  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 16:12:11.416  INFO 13392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 16:12:11.416  INFO 13392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 16:12:11.469  INFO 13392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 16:12:11.469  INFO 13392 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 659 ms
+2020-04-05 16:12:11.598  INFO 13392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 16:12:11.606  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-04-05 16:12:11.615  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-04-05 16:12:11.615  INFO 13392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 16:12:11.801  INFO 13392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 16:12:11.801  INFO 13392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:12:11.846  INFO 13392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 16:12:11.891  WARN 13392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 16:12:12.491  INFO 13392 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9f670936-664e-4165-811d-200813c4d3f4
+
+2020-04-05 16:12:12.525  INFO 13392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61e33dde, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c5639, org.springframework.security.web.header.HeaderWriterFilter@d5c3c01, org.springframework.security.web.csrf.CsrfFilter@7139bba7, org.springframework.security.web.authentication.logout.LogoutFilter@11b63e50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c4d88c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e9440e1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4dd388e1, org.springframework.security.web.session.SessionManagementFilter@3cf43683, org.springframework.security.web.access.ExceptionTranslationFilter@40484454, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28c90790]
+2020-04-05 16:12:12.741  INFO 13392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:12:12.796  INFO 13392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 16:12:13.086  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 16:12:13.086  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.328 seconds (JVM running for 654.61)
+2020-04-05 16:12:13.086  INFO 13392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 16:12:15.856  INFO 13392 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:12:15.856  INFO 13392 --- [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:12:15.856  INFO 13392 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-04-05 16:12:15.861  INFO 13392 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-04-05 16:12:17.296  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 13392 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 16:12:17.296 DEBUG 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 16:12:17.296  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 16:12:17.786  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 16:12:17.826  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 4 JPA repository interfaces.
+2020-04-05 16:12:17.886  WARN 13392 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 16:12:18.225  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 16:12:18.225  INFO 13392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 16:12:18.225  INFO 13392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 16:12:18.276  INFO 13392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 16:12:18.276  INFO 13392 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 970 ms
+2020-04-05 16:12:18.376  INFO 13392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 16:12:18.381  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-04-05 16:12:18.388  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-04-05 16:12:18.388  INFO 13392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 16:12:18.621  INFO 13392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 16:12:18.621  INFO 13392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:12:18.681  INFO 13392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 16:12:18.733  WARN 13392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 16:12:19.292  INFO 13392 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9cd12066-8361-4986-987d-db7b7cb88313
+
+2020-04-05 16:12:19.321  INFO 13392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e1ac0d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@639b4ac7, org.springframework.security.web.header.HeaderWriterFilter@5b646d7, org.springframework.security.web.csrf.CsrfFilter@71694fea, org.springframework.security.web.authentication.logout.LogoutFilter@4914be96, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dca782c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1afd03bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@643ac3f8, org.springframework.security.web.session.SessionManagementFilter@58365834, org.springframework.security.web.access.ExceptionTranslationFilter@5952e9b9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1962ae80]
+2020-04-05 16:12:19.481  INFO 13392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:12:19.526  INFO 13392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 16:12:19.993  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 16:12:19.995  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.75 seconds (JVM running for 661.519)
+2020-04-05 16:12:19.996  INFO 13392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 16:12:24.529  INFO 13392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 16:12:24.536  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 16:12:24.546  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-05 16:12:24.546  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@1652b973}
+2020-04-05 16:12:24.546  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:12:24.546  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : blogarticle
+2020-04-05 16:21:53.397  INFO 13392 --- [Thread-43] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:21:53.402  INFO 13392 --- [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:21:53.402  INFO 13392 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-04-05 16:21:53.407  INFO 13392 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-04-05 16:21:54.672  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 13392 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 16:21:54.672 DEBUG 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 16:21:54.672  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 16:21:54.887  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 16:21:54.912  INFO 13392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 4 JPA repository interfaces.
+2020-04-05 16:21:54.972  WARN 13392 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 16:21:55.287  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 16:21:55.292  INFO 13392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 16:21:55.292  INFO 13392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 16:21:55.332  INFO 13392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 16:21:55.332  INFO 13392 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 660 ms
+2020-04-05 16:21:55.422  INFO 13392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 16:21:55.427  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-04-05 16:21:55.432  INFO 13392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-04-05 16:21:55.432  INFO 13392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 16:21:55.592  INFO 13392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 16:21:55.592  INFO 13392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:21:55.632  INFO 13392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 16:21:55.687  WARN 13392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 16:21:56.172  INFO 13392 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 044f8833-48f8-4730-8f2c-1becfa7eb4d3
+
+2020-04-05 16:21:56.207  INFO 13392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66f7f1bd, org.springframework.security.web.context.SecurityContextPersistenceFilter@17278887, org.springframework.security.web.header.HeaderWriterFilter@32dac666, org.springframework.security.web.csrf.CsrfFilter@3666923a, org.springframework.security.web.authentication.logout.LogoutFilter@18c81724, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5321eea0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@372ceb54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45918498, org.springframework.security.web.session.SessionManagementFilter@15523f55, org.springframework.security.web.access.ExceptionTranslationFilter@68b59ef5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a93e9cc]
+2020-04-05 16:21:56.382  INFO 13392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:21:56.427  INFO 13392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 16:21:56.712  INFO 13392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 16:21:56.712  INFO 13392 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.075 seconds (JVM running for 1238.24)
+2020-04-05 16:21:56.717  INFO 13392 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 16:22:06.392  INFO 13392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 16:22:06.392  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 16:22:06.402  INFO 13392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-05 16:22:06.402  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@2228be63}
+2020-04-05 16:22:06.402  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:22:06.402  INFO 13392 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : _fragments
+2020-04-05 16:22:09.212  INFO 13392 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@46bcaa73}
+2020-04-05 16:22:09.212  INFO 13392 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:22:09.212  INFO 13392 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : _fragments
+2020-04-05 16:25:25.138  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 16:25:25.138 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 16:25:25.138  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 16:25:25.218  INFO 16404 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\30693\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/30693/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-05 16:25:25.218  INFO 16404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-05 16:25:25.218  INFO 16404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-05 16:25:26.625  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 16:25:26.704  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 4 JPA repository interfaces.
+2020-04-05 16:25:26.874  WARN 16404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 16:25:27.549  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 16:25:27.554  INFO 16404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 16:25:27.554  INFO 16404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 16:25:27.734  INFO 16404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 16:25:27.734  INFO 16404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2516 ms
+2020-04-05 16:25:27.959  INFO 16404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 16:25:28.027  INFO 16404 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-05 16:25:28.154  INFO 16404 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-05 16:25:28.256  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-05 16:25:28.354  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-05 16:25:28.374  INFO 16404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 16:25:29.396  INFO 16404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 16:25:29.409  INFO 16404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:25:29.499  INFO 16404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 16:25:29.564  WARN 16404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 16:25:30.204  INFO 16404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0c14749e-a0ee-42c7-a915-f4dca3e8bbbf
+
+2020-04-05 16:25:30.299  INFO 16404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@685593ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@42221bb9, org.springframework.security.web.header.HeaderWriterFilter@535b2a57, org.springframework.security.web.csrf.CsrfFilter@4723f6f8, org.springframework.security.web.authentication.logout.LogoutFilter@4e96261c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e26aa6a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21b46375, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e1ea991, org.springframework.security.web.session.SessionManagementFilter@3e2d96cc, org.springframework.security.web.access.ExceptionTranslationFilter@1a6e2c5d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ac11d6c]
+2020-04-05 16:25:30.529  INFO 16404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:25:30.624  INFO 16404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 16:25:31.144  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 16:25:31.144  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 6.988 seconds (JVM running for 9.562)
+2020-04-05 16:25:35.776  INFO 16404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 16:25:35.776  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 16:25:35.784  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-04-05 16:25:35.814  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@b33fe31}
+2020-04-05 16:25:35.824  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:25:35.824  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : _fragments
+2020-04-05 16:25:38.916  INFO 16404 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@7baa056d}
+2020-04-05 16:25:38.916  INFO 16404 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:25:38.916  INFO 16404 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : _fragments
+2020-04-05 16:25:40.824  INFO 16404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@637835c5}
+2020-04-05 16:25:40.824  INFO 16404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:25:40.824  INFO 16404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : _fragments
+2020-04-05 16:26:00.669  INFO 16404 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:26:00.669  INFO 16404 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:26:00.677  INFO 16404 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-05 16:26:00.697  INFO 16404 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-05 16:26:02.267  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 16:26:02.267 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 16:26:02.267  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 16:26:02.634  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 16:26:02.669  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 4 JPA repository interfaces.
+2020-04-05 16:26:02.739  WARN 16404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 16:26:03.154  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 16:26:03.159  INFO 16404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 16:26:03.159  INFO 16404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 16:26:03.224  INFO 16404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 16:26:03.224  INFO 16404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 957 ms
+2020-04-05 16:26:03.354  INFO 16404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 16:26:03.364  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-04-05 16:26:03.364  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-04-05 16:26:03.364  INFO 16404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 16:26:03.574  INFO 16404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 16:26:03.574  INFO 16404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:26:03.629  INFO 16404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 16:26:03.664  WARN 16404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 16:26:04.234  INFO 16404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4ec60402-0100-4656-90bc-bd293ee19adb
+
+2020-04-05 16:26:04.294  INFO 16404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f9d8809, org.springframework.security.web.context.SecurityContextPersistenceFilter@6517fc72, org.springframework.security.web.header.HeaderWriterFilter@3fbac783, org.springframework.security.web.csrf.CsrfFilter@2ef3872, org.springframework.security.web.authentication.logout.LogoutFilter@68f41a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2848e655, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41a7ba00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@672d9e60, org.springframework.security.web.session.SessionManagementFilter@1e406b60, org.springframework.security.web.access.ExceptionTranslationFilter@5d721c11, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24571b76]
+2020-04-05 16:26:04.474  INFO 16404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:26:04.534  INFO 16404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 16:26:04.824  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 16:26:04.824  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.615 seconds (JVM running for 43.249)
+2020-04-05 16:26:04.834  INFO 16404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 16:26:37.124  INFO 16404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 16:26:37.124  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 16:26:37.134  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-05 16:26:37.134  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@31359695}
+2020-04-05 16:26:37.144  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:26:37.144  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:29:52.716  INFO 16404 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@7bd32083}
+2020-04-05 16:29:52.716  INFO 16404 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:29:52.716  INFO 16404 --- [http-nio-8080-exec-8] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:30:28.906  INFO 16404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@126294b7}
+2020-04-05 16:30:28.906  INFO 16404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:30:28.906  INFO 16404 --- [http-nio-8080-exec-7] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:30:31.386  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@370571c9}
+2020-04-05 16:30:31.386  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:30:31.386  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:30:40.526  INFO 16404 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@78e7f345}
+2020-04-05 16:30:40.526  INFO 16404 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:30:40.526  INFO 16404 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:33:49.375  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@1c5b44d7}
+2020-04-05 16:33:49.375  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 16:33:49.375  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 16:59:44.338  INFO 16404 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:59:44.344  INFO 16404 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:59:44.344  INFO 16404 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-04-05 16:59:44.344  INFO 16404 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-04-05 16:59:45.669  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 16:59:45.669 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 16:59:45.669  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 16:59:45.974  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 16:59:46.006  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 4 JPA repository interfaces.
+2020-04-05 16:59:46.074  WARN 16404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 16:59:46.424  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 16:59:46.424  INFO 16404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 16:59:46.424  INFO 16404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 16:59:46.484  INFO 16404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 16:59:46.484  INFO 16404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 810 ms
+2020-04-05 16:59:46.624  INFO 16404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 16:59:46.634  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-04-05 16:59:46.640  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-04-05 16:59:46.640  INFO 16404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 16:59:46.869  INFO 16404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 16:59:46.869  INFO 16404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 16:59:46.944  INFO 16404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 16:59:47.029  WARN 16404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 16:59:47.694  INFO 16404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6cc6b03c-c29a-4820-83af-18cb37b29ec9
+
+2020-04-05 16:59:47.726  INFO 16404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d28ab97, org.springframework.security.web.context.SecurityContextPersistenceFilter@680b5587, org.springframework.security.web.header.HeaderWriterFilter@4f28210d, org.springframework.security.web.csrf.CsrfFilter@541f210e, org.springframework.security.web.authentication.logout.LogoutFilter@29a85b10, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58347b19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@569a095b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e7bf1b, org.springframework.security.web.session.SessionManagementFilter@45b10b6e, org.springframework.security.web.access.ExceptionTranslationFilter@412e3433, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@347e855]
+2020-04-05 16:59:47.877  INFO 16404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 16:59:47.927  INFO 16404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 16:59:48.217  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 16:59:48.217  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.606 seconds (JVM running for 2066.636)
+2020-04-05 16:59:48.217  INFO 16404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 16:59:53.084  INFO 16404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 16:59:53.084  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 16:59:53.099  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-04-05 17:00:22.294  INFO 16404 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:00:22.294  INFO 16404 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:00:22.294  INFO 16404 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-04-05 17:00:22.304  INFO 16404 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-04-05 17:00:23.744  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 17:00:23.744 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 17:00:23.744  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 17:00:23.984  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 17:00:24.024  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 4 JPA repository interfaces.
+2020-04-05 17:00:24.089  WARN 16404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 17:00:24.448  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 17:00:24.448  INFO 16404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 17:00:24.448  INFO 16404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 17:00:24.494  INFO 16404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 17:00:24.494  INFO 16404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 750 ms
+2020-04-05 17:00:24.648  INFO 16404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 17:00:24.654  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-04-05 17:00:24.654  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-04-05 17:00:24.654  INFO 16404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 17:00:24.874  INFO 16404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 17:00:24.874  INFO 16404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:00:24.926  INFO 16404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 17:00:24.964  WARN 16404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 17:00:25.634  INFO 16404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 13d342fb-79d0-4e52-8a64-ae8ea4a37308
+
+2020-04-05 17:00:25.659  INFO 16404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@191f606f, org.springframework.security.web.context.SecurityContextPersistenceFilter@30c8358c, org.springframework.security.web.header.HeaderWriterFilter@aab63bf, org.springframework.security.web.csrf.CsrfFilter@2d0dd706, org.springframework.security.web.authentication.logout.LogoutFilter@1bc56ad2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bc1be6a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6aa68436, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@466acf3d, org.springframework.security.web.session.SessionManagementFilter@733e790a, org.springframework.security.web.access.ExceptionTranslationFilter@47f99f60, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53347613]
+2020-04-05 17:00:25.814  INFO 16404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:00:25.864  INFO 16404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 17:00:26.154  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 17:00:26.154  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.454 seconds (JVM running for 2104.578)
+2020-04-05 17:00:26.154  INFO 16404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 17:00:29.194  INFO 16404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 17:00:29.194  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 17:00:29.204  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-05 17:00:29.204  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@48ec8058}
+2020-04-05 17:00:29.204  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:00:29.204  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 17:03:31.355  INFO 16404 --- [Thread-29] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:03:31.355  INFO 16404 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:03:31.355  INFO 16404 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-04-05 17:03:31.355  INFO 16404 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-04-05 17:03:32.906  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 17:03:32.906 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 17:03:32.906  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 17:03:33.276  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 17:03:33.325  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 4 JPA repository interfaces.
+2020-04-05 17:03:33.430  WARN 16404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 17:03:33.775  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 17:03:33.775  INFO 16404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 17:03:33.775  INFO 16404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 17:03:33.817  INFO 16404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 17:03:33.817  INFO 16404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 911 ms
+2020-04-05 17:03:33.910  INFO 16404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 17:03:33.917  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-04-05 17:03:33.917  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-04-05 17:03:33.917  INFO 16404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 17:03:34.018  INFO 16404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 17:03:34.018  INFO 16404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:03:34.065  INFO 16404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 17:03:34.095  WARN 16404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 17:03:34.405  INFO 16404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: df7e5079-e012-44eb-9883-eb85d0b4dbc8
+
+2020-04-05 17:03:34.425  INFO 16404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32798142, org.springframework.security.web.context.SecurityContextPersistenceFilter@54c24c2b, org.springframework.security.web.header.HeaderWriterFilter@71be78c1, org.springframework.security.web.csrf.CsrfFilter@1ad5f5f0, org.springframework.security.web.authentication.logout.LogoutFilter@3b923245, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74774402, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@760d423d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c1b18db, org.springframework.security.web.session.SessionManagementFilter@618d5f9f, org.springframework.security.web.access.ExceptionTranslationFilter@65a8b7b6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63ee3022]
+2020-04-05 17:03:34.555  INFO 16404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:03:34.590  INFO 16404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 17:03:34.855  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 17:03:34.855  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.007 seconds (JVM running for 2293.278)
+2020-04-05 17:03:34.855  INFO 16404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 17:03:39.795  INFO 16404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 17:03:39.797  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 17:03:39.805  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-04-05 17:03:39.805  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@329557a9}
+2020-04-05 17:03:39.805  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:03:39.815  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 17:05:08.954  INFO 16404 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:05:08.959  INFO 16404 --- [Thread-34] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:05:08.959  INFO 16404 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-04-05 17:05:08.964  INFO 16404 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-04-05 17:05:10.272  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 17:05:10.272 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 17:05:10.272  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 17:05:10.665  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 17:05:10.850 ERROR 16404 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at org.springframework.asm.ClassReader.readShort(ClassReader.java:3591)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:194)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:177)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:163)
+	at org.springframework.asm.ClassReader.<init>(ClassReader.java:284)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:58)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:50)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.data.repository.config.FragmentMetadata.getClassMetadata(FragmentMetadata.java:85)
+	at org.springframework.data.repository.config.FragmentMetadata.getFragmentInterfaces(FragmentMetadata.java:53)
+	at org.springframework.data.repository.config.RepositoryBeanDefinitionBuilder.registerRepositoryFragmentsImplementation(RepositoryBeanDefinitionBuilder.java:168)
+	at org.springframework.data.repository.config.RepositoryBeanDefinitionBuilder.build(RepositoryBeanDefinitionBuilder.java:123)
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:156)
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:385)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:384)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.coolding.blog.BlogApplication.main(BlogApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+
+2020-04-05 17:05:12.659  INFO 16404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-05 17:05:12.664  INFO 16404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-05 17:05:12.669  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 17:05:12.669 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 17:05:12.674  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 17:05:13.130  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 17:05:13.170  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 4 JPA repository interfaces.
+2020-04-05 17:05:13.235  WARN 16404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 17:05:13.555  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 17:05:13.555  INFO 16404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 17:05:13.555  INFO 16404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 17:05:13.602  INFO 16404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 17:05:13.602  INFO 16404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 928 ms
+2020-04-05 17:05:13.750  INFO 16404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 17:05:13.760  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-04-05 17:05:13.765  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-04-05 17:05:13.765  INFO 16404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 17:05:13.945  INFO 16404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 17:05:13.945  INFO 16404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:05:13.979  INFO 16404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 17:05:14.020  WARN 16404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 17:05:14.560  INFO 16404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5d12364c-3244-4a62-b814-40856a870aaa
+
+2020-04-05 17:05:14.589  INFO 16404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3aa7afaa, org.springframework.security.web.context.SecurityContextPersistenceFilter@725e094c, org.springframework.security.web.header.HeaderWriterFilter@6c032f48, org.springframework.security.web.csrf.CsrfFilter@424a0903, org.springframework.security.web.authentication.logout.LogoutFilter@4405c4f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23736be8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56ff69a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47ed752a, org.springframework.security.web.session.SessionManagementFilter@60ce0647, org.springframework.security.web.access.ExceptionTranslationFilter@2abf687f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bc5b22f]
+2020-04-05 17:05:14.779  INFO 16404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:05:14.829  INFO 16404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 17:05:15.558  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 17:05:15.559  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.915 seconds (JVM running for 2393.976)
+2020-04-05 17:05:15.560  INFO 16404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 17:05:15.714  INFO 13332 --- [main] com.coolding.blog.BlogApplicationTests   : Starting BlogApplicationTests on DESKTOP-USMRK3F with PID 13332 (started by ���Ķ� in D:\ideatest\file_path\blog)
+2020-04-05 17:05:15.714 DEBUG 13332 --- [main] com.coolding.blog.BlogApplicationTests   : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 17:05:15.719  INFO 13332 --- [main] com.coolding.blog.BlogApplicationTests   : No active profile set, falling back to default profiles: default
+2020-04-05 17:05:16.822  INFO 13332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 17:05:16.930  INFO 13332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92ms. Found 4 JPA repository interfaces.
+2020-04-05 17:05:17.110  WARN 13332 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 17:05:18.217  INFO 13332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 17:05:18.399  INFO 13332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-05 17:05:18.584  INFO 13332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-05 17:05:19.654  INFO 13332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-05 17:05:19.906  INFO 13332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-05 17:05:19.929  INFO 13332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 17:05:21.069  INFO 13332 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 17:05:21.085  INFO 13332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:05:21.240  WARN 13332 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 17:05:22.631  INFO 13332 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9d967a27-f132-4062-8d4d-b99488c445d5
+
+2020-04-05 17:05:22.935  INFO 13332 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@355493bf, org.springframework.security.web.context.SecurityContextPersistenceFilter@42ffbab6, org.springframework.security.web.header.HeaderWriterFilter@6b3b4f37, org.springframework.security.web.csrf.CsrfFilter@23708f14, org.springframework.security.web.authentication.logout.LogoutFilter@6cbbfe29, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69bca406, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4583b617, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ebc5be6, org.springframework.security.web.session.SessionManagementFilter@26d24d7a, org.springframework.security.web.access.ExceptionTranslationFilter@f2becb2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bb5f9d]
+2020-04-05 17:05:23.740  INFO 13332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:05:23.922  INFO 13332 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 17:05:24.624  INFO 13332 --- [main] com.coolding.blog.BlogApplicationTests   : Started BlogApplicationTests in 9.713 seconds (JVM running for 11.374)
+2020-04-05 17:05:24.864  INFO 13332 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:05:24.866  INFO 13332 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:05:24.874  INFO 13332 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-05 17:05:24.925  INFO 13332 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-05 17:18:33.369  INFO 16404 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 17:18:33.370  INFO 16404 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 17:18:33.381  INFO 16404 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-04-05 17:18:33.386  INFO 16404 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@3c692513}
+2020-04-05 17:18:33.389  INFO 16404 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:18:33.389  INFO 16404 --- [http-nio-8080-exec-9] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 17:18:59.134  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@795a390a}
+2020-04-05 17:18:59.134  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:18:59.134  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 17:22:45.072 ERROR 16404 --- [http-nio-8080-exec-8] c.c.blog.handler.ExceptionHandler        : Requst URL : /admin/login, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:213)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:110)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-05 17:22:45.074  WARN 16404 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-04-05 17:23:38.751  INFO 16404 --- [Thread-39] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:23:38.751  INFO 16404 --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:23:38.751  INFO 16404 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-04-05 17:23:38.764  INFO 16404 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-04-05 17:23:40.511  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 17:23:40.511 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 17:23:40.511  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 17:23:40.792  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 17:23:40.824  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 4 JPA repository interfaces.
+2020-04-05 17:23:40.878  WARN 16404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 17:23:41.174  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 17:23:41.179  INFO 16404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 17:23:41.179  INFO 16404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 17:23:41.214  INFO 16404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 17:23:41.214  INFO 16404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 703 ms
+2020-04-05 17:23:41.304  INFO 16404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 17:23:41.309  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2020-04-05 17:23:41.309  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2020-04-05 17:23:41.309  INFO 16404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 17:23:41.481  INFO 16404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 17:23:41.481  INFO 16404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:23:41.521  INFO 16404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 17:23:41.559  WARN 16404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 17:23:42.019  INFO 16404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4a4134c7-8d28-4f77-9cdc-d9bae0ee14d7
+
+2020-04-05 17:23:42.048  INFO 16404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b1d29a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@2217910f, org.springframework.security.web.header.HeaderWriterFilter@65dfddba, org.springframework.security.web.csrf.CsrfFilter@605403b2, org.springframework.security.web.authentication.logout.LogoutFilter@11f63de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1402b04b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f2b8d7c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55997f9b, org.springframework.security.web.session.SessionManagementFilter@621e576d, org.springframework.security.web.access.ExceptionTranslationFilter@e171690, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@332faaab]
+2020-04-05 17:23:42.350  INFO 16404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:23:42.404  INFO 16404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 17:23:42.803  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 17:23:42.803  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.341 seconds (JVM running for 3501.221)
+2020-04-05 17:23:42.803  INFO 16404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 17:23:42.851  INFO 16404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 17:23:42.852  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 17:23:42.864  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-04-05 17:23:46.931  INFO 16404 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@3f93d64b}
+2020-04-05 17:23:46.934  INFO 16404 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:23:46.935  INFO 16404 --- [http-nio-8080-exec-6] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 17:29:55.267  INFO 16404 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@10dd31e2}
+2020-04-05 17:29:55.267  INFO 16404 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:29:55.267  INFO 16404 --- [http-nio-8080-exec-10] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 17:42:43.417  INFO 16404 --- [Thread-47] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:42:43.417  INFO 16404 --- [Thread-47] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:42:43.417  INFO 16404 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2020-04-05 17:42:43.432  INFO 16404 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2020-04-05 17:42:45.062  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 17:42:45.062 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 17:42:45.062  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 17:42:45.283  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 17:42:45.308  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 4 JPA repository interfaces.
+2020-04-05 17:42:45.383  WARN 16404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 17:42:45.711  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 17:42:45.711  INFO 16404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 17:42:45.712  INFO 16404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 17:42:45.767  INFO 16404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 17:42:45.767  INFO 16404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 703 ms
+2020-04-05 17:42:45.908  INFO 16404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 17:42:45.913  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2020-04-05 17:42:45.921  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2020-04-05 17:42:45.921  INFO 16404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 17:42:46.085  INFO 16404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 17:42:46.085  INFO 16404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:42:46.139  INFO 16404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 17:42:46.186  WARN 16404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 17:42:46.684  INFO 16404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0ac348b2-5cc8-44b8-b4df-f42acd06c0e8
+
+2020-04-05 17:42:46.710  INFO 16404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@285b9fa0, org.springframework.security.web.context.SecurityContextPersistenceFilter@214f30b6, org.springframework.security.web.header.HeaderWriterFilter@731dafb4, org.springframework.security.web.csrf.CsrfFilter@6a8c04bd, org.springframework.security.web.authentication.logout.LogoutFilter@4179b95e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f35d49b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@514bb2c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@662f98af, org.springframework.security.web.session.SessionManagementFilter@2b6c608a, org.springframework.security.web.access.ExceptionTranslationFilter@75b374f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@625fdc80]
+2020-04-05 17:42:46.867  INFO 16404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:42:46.914  INFO 16404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 17:42:47.219  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 17:42:47.220  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 2.198 seconds (JVM running for 4645.637)
+2020-04-05 17:42:47.223  INFO 16404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 17:42:47.261  INFO 16404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 17:42:47.262  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 17:42:47.275  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-04-05 17:42:47.281  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@5d8bd3eb}
+2020-04-05 17:42:47.287  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:42:47.287  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 17:42:47.325 ERROR 16404 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "page.totalPages" (template: "index" - line 164, col 52)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 86 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "page.totalPages" (template: "index" - line 164, col 52)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.GreaterThanExpression.executeGreaterThan(GreaterThanExpression.java:77)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:101)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 88 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalPages' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 113 common frames omitted
+
+2020-04-05 17:42:47.327 ERROR 16404 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalPages' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.GreaterThanExpression.executeGreaterThan(GreaterThanExpression.java:77)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:101)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-05 17:53:53.596  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@7fd78b77}
+2020-04-05 17:53:53.596  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:53:53.596  INFO 16404 --- [http-nio-8080-exec-3] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 17:53:53.604 ERROR 16404 --- [http-nio-8080-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-3] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "page.totalPages" (template: "index" - line 164, col 52)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 86 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "page.totalPages" (template: "index" - line 164, col 52)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.GreaterThanExpression.executeGreaterThan(GreaterThanExpression.java:77)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:101)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 88 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalPages' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 113 common frames omitted
+
+2020-04-05 17:53:53.606 ERROR 16404 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalPages' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.GreaterThanExpression.executeGreaterThan(GreaterThanExpression.java:77)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:101)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-05 17:54:16.941  INFO 16404 --- [Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:54:16.942  INFO 16404 --- [Thread-52] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:54:16.944  INFO 16404 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2020-04-05 17:54:16.956  INFO 16404 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2020-04-05 17:54:19.036  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Starting BlogApplication on DESKTOP-USMRK3F with PID 16404 (D:\ideatest\file_path\blog\target\classes started by 酷酷的丁 in D:\ideatest\file_path\blog)
+2020-04-05 17:54:19.037 DEBUG 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-05 17:54:19.037  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : No active profile set, falling back to default profiles: default
+2020-04-05 17:54:19.449  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-05 17:54:19.484  INFO 16404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 4 JPA repository interfaces.
+2020-04-05 17:54:19.584  WARN 16404 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.coolding.blog]' package. Please check your configuration.
+2020-04-05 17:54:20.023  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-05 17:54:20.023  INFO 16404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 17:54:20.024  INFO 16404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-05 17:54:20.072  INFO 16404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 17:54:20.072  INFO 16404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1033 ms
+2020-04-05 17:54:20.192  INFO 16404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-05 17:54:20.203  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2020-04-05 17:54:20.209  INFO 16404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2020-04-05 17:54:20.210  INFO 16404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-05 17:54:20.359  INFO 16404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-05 17:54:20.360  INFO 16404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-05 17:54:20.403  INFO 16404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 17:54:20.447  WARN 16404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-05 17:54:20.970  INFO 16404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 322d1bff-7bc1-4313-9f81-f94e38758be4
+
+2020-04-05 17:54:21.010  INFO 16404 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dac5fe3, org.springframework.security.web.context.SecurityContextPersistenceFilter@483e1ad6, org.springframework.security.web.header.HeaderWriterFilter@6bc830d3, org.springframework.security.web.csrf.CsrfFilter@4b5973fb, org.springframework.security.web.authentication.logout.LogoutFilter@3ab7119f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23841a37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@960f83c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13083cc9, org.springframework.security.web.session.SessionManagementFilter@48787e89, org.springframework.security.web.access.ExceptionTranslationFilter@4a9438ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ce45b08]
+2020-04-05 17:54:21.350  INFO 16404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 17:54:21.447  INFO 16404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-05 17:54:22.008  INFO 16404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-05 17:54:22.009  INFO 16404 --- [restartedMain] com.coolding.blog.BlogApplication        : Started BlogApplication in 3.029 seconds (JVM running for 5340.425)
+2020-04-05 17:54:22.010  INFO 16404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 17:54:22.237  INFO 16404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 17:54:22.238  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 17:54:22.248  INFO 16404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-05 17:54:22.258  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@649d31e7}
+2020-04-05 17:54:22.469  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:54:22.469  INFO 16404 --- [http-nio-8080-exec-1] com.coolding.blog.aspect.LogAspect       : Result : index
+2020-04-05 17:55:25.026  INFO 16404 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : {url='/', ip='127.0.0.1', classMethod='com.coolding.blog.web.IndexController.indexPage', args=[Ljava.lang.Object;@19529335}
+2020-04-05 17:55:25.036  INFO 16404 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : ---------DoAfter-----------
+2020-04-05 17:55:25.037  INFO 16404 --- [http-nio-8080-exec-4] com.coolding.blog.aspect.LogAspect       : Result : index

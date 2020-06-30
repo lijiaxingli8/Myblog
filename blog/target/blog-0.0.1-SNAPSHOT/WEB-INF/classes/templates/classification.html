@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN"  xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+	  <link href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}"  rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="../static/css/index.css" th:href="@{/css/index.css}" />
+	  <link rel="stylesheet" type="text/css" href="../static/css/classifiation.css" th:href="@{/css/classifiation.css}" />
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+	  <link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.10.0/tocbot.css">
+	  <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}" >
+
+
+  </head>
+  <body>
+  		<div class="returntop">
+  		<a class="btn btn-default" href="#" role="button" style="position:fixed;right:1%;bottom:2% ;background-color: #49B1F5;color: white;border: none;">
+			Top
+			</a>
+  	</div>
+		<!--导航-->
+		<div th:replace="_fragments::nav"></div>
+		<div class="container-fluid articleimg">
+			<h1 th:text="|共${#arrays.length(types)}个分类|" class="classh">分类</h1>
+		</div>
+		<div class="right aligned colum">
+		</div>
+
+		<div class="container margin-tb-big">
+			<div class="ui attached segment">
+				<div class="ui labeled button" th:each="type : ${types}">
+					<a href="" th:href="@{/types/{id}(id=${type.id})}" class="ui basic button" th:classappend="${type.id==activeTypeId} ? 'teal'"  th:text="${type.name}">Java</a>
+					<div class="ui basic left pointing label" th:classappend="${type.id==activeTypeId} ? 'teal'" th:text="${#arrays.length(type.blog)}">1</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container allart" id="article-grid">
+			<div class="row justify-content-center">
+				<!--卡片1-->
+				<div class="col-xl-6 col-lg-6 text-center" th:each="blog : ${page.content}">
+					<div class="article-card">
+						<div class="article-img">
+							<img src="../static/img/tag-bg.png" th:src="@{${blog.fistPicture}}">
+						</div>
+						<div class="article-meta text-left">
+							<a href="" th:href="@{/blog/{id}(id=${blog.id})}"><h2 th:text="${blog.title}">示例标题</h2></a>
+							<p class="p-content-show" th:text="${blog.description}">Lorolestiad</p>
+						</div>
+						<div class="item">
+							<i class="calendar icon"></i><span class="ui teal" th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}"></span>&nbsp;&nbsp;&nbsp;
+							<i class="eye icon"></i> <span th:text="${blog.views}"></span>
+						</div>
+						<div class="item">
+						</div>
+					</div>
+				</div>
+				<!--/*-->
+				<!--卡片2-->
+				<div class="col-xl-6 col-lg-6  text-center">
+					<div class="article-card">
+						<div class="article-img">
+							<img src="img/bgi.jpg">
+						</div>
+						<div class="article-meta  text-left">
+							<a href=""><h2>示例标题</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo deserunt aspernatur aliquam natus perspiciatis quod veritatis dolor corporis voluptatibus impedit disti!</p>
+						</div>
+					</div>
+				</div>
+				<!--卡片3-->
+				<div class="col-xl-6 col-lg-6 text-center">
+					<div class="article-card">
+						<div class="article-img">
+							<img src="img/tag-bg.png">
+						</div>
+						<div class="article-meta text-left">
+							<a href=""><h2>示例标题</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit animi sit sequi error enim similique quo quia iure suscipit reiciendis beatae eligendi soluta molestias vel consequatur </p>
+						</div>
+					</div>
+				</div>
+				<!--卡片4-->
+				<div class="col-xl-6 col-lg-6  text-center">
+					<div class="article-card">
+						<div class="article-img">
+							<img src="img/bgi.jpg">
+						</div>
+						<div class="article-meta  text-left">
+							<a href=""><h2>示例标题</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo deserunt aspernatur aliquam natus perspiciatis quod veritatis dolor corporis voluptatibus impedit distinctio sed adipisci praesentium </p>
+						</div>
+					</div>
+				</div>
+				<!--卡片5-->
+				<div class="col-xl-6 col-lg-6 text-center">
+					<div class="article-card">
+						<div class="article-img">
+							<img src="img/tag-bg.png">
+						</div>
+						<div class="article-meta text-left">
+							<a href=""><h2>示例标题</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit animi sit sequi error enim similique quo quia iure suscipit reiciendis beatae eligendi soluta molestias vel consequatur voluptatem repellendus?</p>
+						</div>
+					</div>
+				</div>
+				<!--卡片6-->
+				<div class="col-xl-6 col-lg-6  text-center">
+					<div class="article-card">
+						<div class="article-img">
+							<img src="img/bgi.jpg">
+						</div>
+						<div class="article-meta  text-left">
+							<a href=""><h2>示例标题</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo deserunt aspernatur aliquam natus perspiciatis quod veritatis dolor corporis voluptatibus impedit distinctio sed adipisci praesentium quas odio </p>
+						</div>
+					</div>
+				</div>
+				<!--卡片7-->
+				<div class="col-xl-6 col-lg-6 text-center">
+					<div class="article-card">
+						<div class="article-img">
+							<img src="img/tag-bg.png">
+						</div>
+						<div class="article-meta text-left">
+							<a href=""><h2>示例标题</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit animi sit sequi error enim similique quo quia iure suscipit reiciendis beatae eligendi soluta molestias vel consequatur voluptatem repellendus? Ea fuga.</p>
+						</div>
+					</div>
+				</div>
+				<!--卡片8-->
+				<div class="col-xl-6 col-lg-6  text-center">
+					<div class="article-card">
+						<div class="article-img">
+							<img src="img/bgi.jpg">
+						</div>
+						<div class="article-meta  text-left">
+							<a href=""><h2>示例标题</h2></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo deserunt aspernatur aliquam natus perspiciatis quod veritatis dolor corporis voluptatibus impedit distinctio sed adipisci praesentium quas odio </p>
+						</div>
+					</div>
+				</div>
+				<!--*/-->
+
+			</div>
+		</div>
+
+
+		<footer class="container-fluid">
+			<div class="container">
+				<p style="color: #777777;">©2020 By CoolDing</p>
+				<p style="color: #777777;"> CoolDing 豫IPC备 668866号</p>
+			</div>
+		</footer>
+		<script src="js/jquery.min.js" th:src="@{/js/jquery.min.js}"></script>
+		<script src="js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+			<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+        <script>
+			function scroll() {
+				var top = $(".margin-tb-big").offset().top;//获取导航栏变色的位置距顶部的高度
+				var scrollTop = $(window).scrollTop();//获取当前窗口距顶部的高度
+				if (scrollTop < top) {
+					$('.allnav').css('background-color', 'rgba(0,0,0,0)');
+				} else {
+					$('.allnav').css('background-color', 'rgba(0,0,0,0.6)');
+				}
+			}
+			$(window).on('scroll', function() {
+				scroll()
+			});
+		</script>
+  </body>
+</html>

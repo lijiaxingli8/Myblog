@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" th:href="@{/css/bootstrap.css}"  >
+    <link rel="stylesheet" type="text/css" href="/css/index.css" th:href="@{/css/index.css}" />
+    <link rel="stylesheet" type="text/css" href="/css/blogarticle.css" th:href="@{/css/blogarticle.css}" />
+    <link rel="stylesheet" href="/css/prism.css" th:href="@{/css/prism.css}" >
+    <link rel="stylesheet" href="/css/typo.css" th:href="@{/css/typo.css}" >
+    <link rel="stylesheet" href="/css/me.css" th:href="@{/css/me.css}" >
+    <link rel="stylesheet" href="/css/article.css" th:href="@{/css/article.css}" >
+    <link rel="stylesheet" href="/css/classifiation.css" th:href="@{/css/classifiation.css}" >
+    <link rel="stylesheet" href="/css/my-login.css" th:href="@{/css/my-login.css}" >
+    <link rel="stylesheet" href="/css/animate.css" th:href="@{/css/animate.css}" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.10.0/tocbot.css">
+</head>
+<body>
+    <!--导航-->
+    <nav class="navbar navbar-inverse navbar-fixed-top container-fluid allnav" th:fragment="nav" id="nav">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#d1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html"  th:href="@{/}" class="navbar-brand">CoolDing</a>
+            </div>
+            <div class="navbar-collapse collapse" id="d1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html" th:href="@{/}">首页</a></li>
+                    <li><a href="article.html" th:href="@{/blogs}">全部文章</a></li>
+                    <li><a href="classification.html" th:href="@{/types/-1}">分类</a></li>
+                    <li><a href="classification.html" th:href="@{/time}">时间轴</a></li>
+                    <li><a href="aboutMe.html" th:href="@{/about}">关于我</a></li>
+                </ul>
+
+           <!-- <ul class="navbar-nav nav navbar-right">
+                    &lt;!&ndash;login&ndash;&gt;
+                    <li class="dropdown active bloglogin">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown" style="color: white;">注册</a>
+                        <ul class="dropdown-menu">
+                            <div class="panel-body">
+                                <h3>注册</h3>
+                                <p>Welcome</p>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" name="" id="" value="" class="form-control" placeholder="Username"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" name="" id="" value="" class="form-control" placeholder="Password"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="" id="" value="" class="form-control" placeholder="E-mail"/>
+                                    </div>
+                                    <p>您注册表面您同意我们的款条</p>
+                                    <button class="btn btn-info">
+                                        注册
+                                    </button>
+                                </form>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>-->
+                <ul class="navbar-nav nav navbar-right bloglogin">
+
+                                    <li><a href="index.html"th:href="@{/admin}" target="_blank" >登录</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</body>
+
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/lib/editormd/editormd.min.js"></script>
+<script src="../static/js/prism.js"></script>
+<script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+<script src="https://cdn.bootcss.com/tocbot/4.10.0/tocbot.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+</html>
